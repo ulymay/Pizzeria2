@@ -1,0 +1,105 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/03/2019, 02:52:22 PM
+    Author     : jorge
+*/
+
+*{
+    font-family: Roboto,sans-serif;
+}
+
+a.navbar-brand.logo {
+    font-size: 2em;
+    padding-left: 100px;
+}
+
+a.navbar-brand.logo img{
+    display:block;
+    position: absolute;
+    left: 20px;
+}
+
+ul.navbar-nav li.nav-item a{
+    color:white !important;
+    text-shadow: 0px 0px 10px #000;
+    height: 30px;
+}
+
+ul.navbar-nav li.nav-item.active{
+    border-bottom: 3px solid white;
+}
+
+nav.bg-custom{
+    background: #78d476;
+    color: white;
+    height: 50px;
+}
+
+nav.bg-custom.bgTransparente{
+    background: rgba(0,0,0,0);
+}
+
+div#car{
+    display: block;
+    position: relative;
+    
+    width: 30px;
+    
+    
+}
+
+
+div#car div{
+    display: block;
+    position: absolute;    
+    
+    width: 20px;
+    height: 20px;
+    
+    top: 20%;
+    left: 60%;
+    
+    font-size: 0.8em;
+    background: #0099cc;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+div.container.carrito{
+    min-height: calc(100vh - 245px); 
+    margin-top: 100px;
+}
+
+div.container.carrito table.table.table-striped thead tr th{
+    background: #d0facf;
+}
+
+div.container.carrito table.table.table-striped tbody tr:nth-child(even) td{
+    background: #d0facf;
+}
+
+div.container.carrito table.table.table-striped tbody tr.last th{
+    background: #d0facf;
+}
+
+
+
+div.bg-green.container-fluid{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+    background: #78d476;
+    text-align: right;
+}
+
+div.bg-green.container-fluid div.row div.col-md-3 i{
+    color: white;
+    font-size: 2em;
+    margin-right: 20px;
+}
